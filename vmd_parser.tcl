@@ -2,11 +2,11 @@
 #show version and usage info
 #***************************
 proc vmd_parser_info {} {
-	set version "1.0.8"
+	set version "0.1.0"
 	puts "\[ ABOUT \]"	
 	puts "version: $version"
-	puts "author: Jean Helie"
-	puts "github: https://github.com/jhelie/vmd_parser.git"
+	puts "author: Jean Helie (jean.helie@bioch.ox.ac.uk)"
+	puts "github: https://github.com/jhelie/vmd_parser"
 	puts ""
 	puts "\[ USAGE \]"
 	puts "Type 'function user_field file.txt', where 'function' can be: "
