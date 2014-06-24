@@ -2,11 +2,11 @@
 #show version and usage info
 #***************************
 proc vmd_parser_info {} {
-	set version "1.0.7"
+	set version "1.0.8"
 	puts "\[ ABOUT \]"	
-	puts "-version: $version"
-	puts "-author: Jean Helie"
-	puts "-github: https://github.com/jhelie/vmd_parser.git"
+	puts "version: $version"
+	puts "author: Jean Helie"
+	puts "github: https://github.com/jhelie/vmd_parser.git"
 	puts ""
 	puts "\[ USAGE \]"
 	puts "Type 'function user_field file.txt', where 'function' can be: "
@@ -15,8 +15,7 @@ proc vmd_parser_info {} {
 	puts " -> set_order_param"
 	puts " -> set_thickness"
 	puts " -> set_leaflet"
-	puts "and where 'user_field' can be user, user2, user3 or user4 (in the case of set_leaflet"
-	puts "no need to specify a user field, the info is stored in the beta field)."
+	puts "and where 'user_field' can be user, user2, user3 or user4 (in the case of set_leaflet no need to specify a user field, the info is stored in the beta field)."
 	puts ""
 }
 
